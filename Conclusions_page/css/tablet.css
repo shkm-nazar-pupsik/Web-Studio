@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@media screen and (min-width: 734px) and (max-width: 1279px){
+	/*РОБОТА БОНДАНА/ІЛЛІ*/
+	.container{
+		width: 744px;
+	}
+	.header{
+		width: 726px;
+		height: 54px;
+	}
+	.link{
+		font-size: 16px;
+	}
+	.logo{
+	    width: 49px;
+	    height: 45px;
+    }
+    .list{
+	    width: 527px;
+	    height: 34px;
+    }
+    .section{
+    	width: 726px;
+    	height: 337px;
+    }
+    .element1, .element2, .element3{
+        display: none;
+    }
+    .block_1{
+    	width: 355.33px;
+    	height: 205px;
+    }
+    .wrapper-text{
+    	width: 355.33px;
+    	height: 140px;
+    }
+    .title_1{
+    	font-size: 40px;
+    }
+    .title_2{
+    	font-size: 20px;
+    }
+    .button{
+	     width: 159px;
+	     height: 45px;
+     }
+    .text_button{
+	    font-size: 22px;
+    }
+    .lending-image{
+    	width: 400px;
+    	height: 237px;
+    }
+    .two{
+    	margin: 0px;
+    }
+	/*KІНЕЦЬ РОБОТИ БОГДАНА/ІЛЛІ*/
+
+    /*РОБОТА НАЗАРА*/
+    .scrum-or-kanban{
+        flex-direction: column;
+        max-width: 1279px;
+        margin: 0 auto;
+        height: 750px;
+    }
+    .scrum-or-kanban-title{
+        font-family: Playfair Display;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .scrum-or-kanban-text{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .puzzle-image{
+        width: 440px;
+        height: 459px;
+    }
+    /*КІНЕЦЬ РОБОТИ НАЗАРА*/
+
+	/*РОБОТА ІЛЛІ*/
+	.section4{
+		width: 720px;
+	}
+	.table{
+        width: 720px;
+	}
+    .table-line{
+        width: 720px;
+    }
+    .table-line-head{
+    	width: 480px;
+    	margin-left: 240px;
+    }
+	.table-item-head1{
+        width: 150.21px;
+	}
+	.table-item-head2{
+		width: 150.21px;
+	}
+	.table-item-head3{
+		width: 150.21px;
+	}
+	.table-item1{
+        width: 150.21px; 
+	}
+	.table-item2{
+		width: 150.21px;
+	}
+	.table-item3{
+		width: 150.21px;
+	}
+	.table-item-main{
+		width: 228.62px;
+	}
+	/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+	/*РОБОТА ІЛЛІ*/
+    .footer{
+    	width: 744px;
+    	height: 430px;
+    }
+    .line{
+    	width: 600px;
+    }
+    .mega-wrapper{
+    	width: 726px;
+    	height: 351px;
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .subtitle, .sub{
+    	font-size: 18px;
+    }
+    .text-footer{
+        font-size: 16px;
+    }
+    .wrap-footer{
+    	width: 726px;
+    }
+    .box1{
+	    width: 364px;
+	    height: 104px;
+	    align-items: center;
+	    font-size: 16px;
+    }
+    .box2{
+    	width: 171px;
+        height: 162.49px;
+    }
+    .box3{
+    	width: 185px;
+        height: 225.07px;
+    }
+    .box4{
+    	width: 180px;
+        height: 233.19px;
+    }
+    .box5{
+    	width: 173px;
+        height: 205.77px;
+    }
+    .subr{
+    	display: none;
+    }
+    .logo2{
+        width: 82px;
+        height: 76px;
+    }
+	/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+}

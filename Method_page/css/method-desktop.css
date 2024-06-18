@@ -1,0 +1,515 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+/*РОБОТА БОГДАНА/ІЛЛІ*/
+.header{
+	width: 1100px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section{
+   width: 1160px;
+   height: 488px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.list{
+	width: 717.84px;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+input{
+	display: none;
+}
+.logo{
+	width: 49px;
+	height: 45px;
+}
+.item, .link{
+	list-style-type: none;
+	text-decoration: none;
+	color: #ABAEB5;
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+}
+.suptwo{
+	margin-left: 60px;
+}
+.wraper_2{
+	width: 100%;
+	height: 552px;
+	display: flex;
+	justify-content: space-between;
+}
+.block_1{
+    height: 286px;
+    width: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;	
+}
+.wrapper-text{
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.title_1{
+   font-size: 70px;
+   font-family: 'Playfair Display', serif;
+   font-weight: 700;
+   color: #202336;
+}
+.title_2{
+   font-family: 'Inter', sans-serif;
+   font-size: 24px;
+   line-height: 35px;
+   font-weight: 600;
+   color: #202336;
+}
+.button{
+	background: #F6A410;
+	width: 159px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	border: none;
+	box-shadow: 0px 3px 5px 0px grey;
+}
+.text_button{
+	color: white;
+	font-size: 26px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+}
+.lending_image{
+	width: 100%;
+	height: 100%;
+}
+.element1{
+	position: absolute;
+    left: 548px;
+    top: 101.49px;
+}
+.element2{
+	position: absolute;
+	left: 1198px;
+	top: 263.44px;
+}
+.element3{
+	position: absolute;
+	left: 485px;
+	top: 347px;
+}
+/*КІНЕЦЬ РОБОТИ БОГДАНА/ІЛЛІ*/
+
+/*РОБОТА НАЗАРА*/
+.scrum-conception-title{
+	font-family: Playfair Display;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 47px;
+}
+.scrum-conception-section{
+	display: flex;
+	justify-content: space-around;
+	align-items: start;
+	width: 1160px;
+}
+.scrum-conception-card{
+	width: 274.16px;
+	background: #DAF1E982;
+	padding-top: 11px;
+	padding-bottom: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	border-radius: 10px;
+
+}
+.scrum-conception-card-img{
+	width: 76.46px;
+	height: 70px;
+	margin-bottom: 30px;
+}
+.scrum-conception-card-title{
+	font-family: Playfair Display;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 23px;
+}
+.scrum-conception-card-list-li{
+	list-style-type: decimal;
+	margin-bottom: 20px;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.scrum-conception-card-button{
+	background: #F6A410;
+	padding: 12px 31.80px;
+	border: none;
+	border-radius:	8px;
+	font-family: Playfair Display;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.scrum-conception-card2{
+	width: 371.37px;
+	background: #FFE7675C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 16px;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	border-radius: 10px;
+}
+.scrum-conception-card-img2{
+	margin-bottom: 21px;
+}
+.scrum-conception-card-title2{
+	font-family: Playfair Display;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.scrum-conception-card-list-li2{
+	list-style-type: decimal;
+	margin-bottom: 13px;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+}
+.scrum-conception-card-list-li2:nth-child(3){
+	margin-bottom: 30px;
+}
+.scrum-conception-card-list-li2:nth-child(2){
+	margin-bottom: 16px;
+}
+.scrum-conception-card3{
+	width: 273.07px;
+	background: #DAF1E982;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 11px;
+	padding-bottom: 16px;
+	box-shadow: 0px 4px 4px 0px #00000040;
+	border-radius: 10px;
+}
+.scrum-conception-card-img3{
+	margin-bottom: 30px;
+}
+.scrum-conception-card-title3{
+	font-family: Playfair Display;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+.scrum-conception-card-list-li3{
+	list-style-type: decimal;
+	margin-bottom: 13px;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+}
+.scrum-conception-card-list-li3:nth-child(2){
+	margin-bottom: 16px;
+}
+.scrum-conception-card-list-li3:nth-child(3){
+	margin-bottom: 36px;
+}
+/*КІНЕЦЬ РОБОТИ НАЗАРА*/
+
+/*РОБОТА ІЛЛІ*/
+.container{
+	width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section4{
+	width: 1160px;
+	height: 882px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.subtitle{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+.text, .text2{
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+}
+/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+/*РОБОТА НАЗАРА*/
+.how-work-kanban{
+	width: 1160px;
+}
+.how-work-kanban-title{
+	font-family: Playfair Display;
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.how-work-kanban-text1{
+	font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 20px;
+color: #333333;
+
+}
+.how-work-kanban-text2{
+	font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+margin-top: 20px;
+color: #333333;
+}
+/*КІНЕЦЬ РОБОТИ НАЗАРА*/
+
+/*РОБОТА ІЛЛІ*/
+.section7{
+	width: 1066px;
+	height: 850px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+.subtitle2{
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+.wrapper{
+	width: 1066px;
+	height: 484px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrap{
+	width: 336.32px;
+	height: 484px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.title-wrap{
+	width: 336.32px;
+	height: 113px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block{
+	width: 336.32px;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	color: white;
+	font-weight: 300;
+	font-family: 'Inter', sans-serif;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.one{
+	background: #62C1C5;
+}
+.two{
+	background: #1E8A8C;
+}
+.triangle{
+    border-style: solid;
+    border-width: 1.5em 0.7em 0em 0.7em; 
+    border-color: #62C1C5 #fff #fff #fff;
+}
+.triangle2{
+    border-style: solid;
+    border-width: 1.5em 0.7em 0em 0.7em; 
+    border-color: #1E8A8C #fff #fff #fff;
+}
+.list-wrap{
+	width: 259.24px;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.item2{
+	width: 259.24px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.mini-text{
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.78px;
+	font-family: 'Inter', sans-serif;
+	margin-left: 20px;
+}
+.wrap2{
+	width: 1160px;
+	height: 189px;
+	border: 0.5px solid #DBEEEA;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.23);;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrap-box{
+	width: 122px;
+	height: 122px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mini-text2{
+	font-size: 16px;
+	color: #6A6A6A;
+	font-family: 'Inter', sans-serif;
+}
+.story-text{
+	font-size: 14px;
+	line-height: 25px;
+	font-family: 'Inter', sans-serif;
+    color: #6A6A6A;
+}
+/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+/*ПОЧАТОК РОБОТИ ІЛЛІ*/
+.section8{
+    width: 1160px;
+    height: 495px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.secret-wrapper{
+	width: 680.59px;
+	height: 495px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.secret-subtitle{
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+}
+.secret-text{
+	font-size: 18px;
+	line-height: 30px;
+	color: #333333;
+	font-family: 'Inter', sans-serif;
+}
+/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+/*РОБОТА ІЛЛІ*/
+.footer{
+	width: 1280px;
+	height: 430px;
+	background: #ebf7f4;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+}
+.mega-wrapper{
+	width: 1100px;
+	height: 235px;
+	display: flex;
+	justify-content: space-between;
+}
+.wrap-footer{
+	width: 892px;
+	height: 235px;
+	display: flex;
+	justify-content: space-between;
+}
+.supsub{
+	font-size: 17px;
+    font-family: 'Playfair Display', serif;
+}
+.supone{
+	width: 208px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box1{
+	width: 208px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box2{
+    height: 155px;
+}
+.box3{
+    height: 235px;
+}
+.box4{
+    height: 230.62px;
+}
+.box5{
+    height: 190px;
+}
+.line{
+	width: 977.43px;
+	height: 1px;
+	background: #C4C4C4;
+}
+.img-wrap{
+	width: 198.86px;
+	height: 19.63px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.supsubtitle{
+    font-size: 19px;
+    font-family: 'Playfair Display', serif;
+}
+.text-footer{
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    color: #717171;
+}
+/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+}

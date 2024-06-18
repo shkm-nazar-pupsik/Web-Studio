@@ -1,0 +1,286 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+@media screen and (min-width: 744px) and (max-width: 1279px){
+	/*РОБОТА БОНДАНА/ІЛЛІ*/
+	.container{
+		width: 744px;
+	}
+	.header{
+		width: 726px;
+		height: 54px;
+	}
+	.link{
+		font-size: 16px;
+	}
+	.logo{
+	    width: 49px;
+	    height: 45px;
+    }
+    .item{
+    	width: 200px;
+    }
+    .list{
+	    width: 727px;
+	    height: 34px;
+    }
+    .section{
+    	width: 726px;
+    	height: 337px;
+    }
+    .element1, .element2, .element3{
+        display: none;
+    }
+    .block_1{
+    	width: 355.33px;
+    	height: 205px;
+    }
+    .wrapper-text{
+    	width: 355.33px;
+    	height: 140px;
+    }
+    .title_1{
+    	font-size: 40px;
+    }
+    .title_2{
+    	font-size: 20px;
+    }
+    .button{
+	     width: 159px;
+	     height: 45px;
+     }
+    .text_button{
+	    font-size: 22px;
+    }
+    .lending-image{
+    	width: 400px;
+    	height: 237px;
+    }
+	/*ЦІНЕЦЬ РОБОТИ БОГДАНА/ІЛЛІ*/
+
+    /*РОБОТА НАЗАРА*/
+    .scrum-conception{
+        width: 726px;
+        margin: 0 auto;
+    }
+    .scrum-conception-section{
+        width: 726px;
+    }
+    .scrum-conception-title{
+        margin-bottom: 16px;
+        font-family: Playfair Display;
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+
+    }
+    .scrum-conception-card{
+        width: 220px;
+        padding-top: 11px;
+        padding-bottom: 20px;
+    }
+    .scrum-conception-card-img{
+        margin-bottom: 26px;
+        width: 80px;
+        height: 72px;
+
+    }
+    .scrum-conception-card-title{
+        margin-bottom: 21px;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .scrum-conception-card-list-li{
+        margin-bottom: 13px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .scrum-conception-card-list{
+        margin-bottom: 38px;
+    }
+    .scrum-conception-card2{
+        width: 242px;
+        height: 365px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .scrum-conception-card-img2{
+        width: 60.2px;
+        height: 73px;
+        margin-bottom: 18px;
+    }
+    .scrum-conception-card-title2{
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .scrum-conception-card-list-li2{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 25px;
+    }
+    .scrum-conception-card-list2{
+        margin-bottom: 15px;
+    }
+    .scrum-conception-card3{
+        width: 220px;
+        height: 365px;
+        padding-top: 11px;
+        padding-bottom: 20px;
+    }
+    .scrum-conception-card-img3{
+        margin-bottom: 24px;
+        width: 78.4px;
+        height: 70px;
+    }
+    .scrum-conception-card-title3{
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .scrum-conception-card-list-li3{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 13px;
+    }
+    .scrum-conception-card-list3{
+        margin-bottom: 18px;
+        margin-left: 15px;
+    }
+    /*КІНЕЦЬ РОБОТИ НАЗАРА*/
+
+	/*РОБОТА ІЛЛІ*/
+	.section4{
+		width: 726px;
+		height: 913px;
+	}
+	.brchick{
+		display: none;
+	}
+	.image-scrum{
+		width: 718px;
+		height: 278px;
+	}
+	/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+    /*РОБОТА НАЗАРА*/
+    .how-work-kanban-image{
+        width: 721px;
+        height: 302px;
+    }
+    .how-work-kanban{
+        width: 726px;
+        margin: 0 auto;
+    }
+    /*КІНЕЦЬ РОБОТИ НАЗАРА*/
+
+	/*РОБОТА ІЛЛІ*/
+	.section7{
+         width: 764px;
+         height: 1367px;
+	}
+	.wrapper{
+         width: 764px;
+         height: 900px;
+         flex-wrap: wrap;
+         justify-content: center;
+	}
+	.wrap{
+		order: -1;
+		margin-left: 45px;
+	}
+	.wrap2{
+		width: 680px;
+		height: 400px;
+		flex-direction: column;
+		padding: 10px;
+	}
+	.story-text{
+		width: 650px;
+	}
+	/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+	/*ПОЧАТОК РОБОТИ ІЛЛІ*/
+	.section8{
+		width: 726px;
+		height: 1050px;
+		flex-direction: column-reverse;
+	}
+	.secret-wrapper{
+		width: 726px;
+		height: 500px;
+	}
+	.secret-subtitle{
+		font-size: 35px;
+	}
+	.secret-text{
+		font-size: 16;
+	}
+	.image2{
+		width: 590px;
+		height: 490px;
+	}
+	/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+	/*РОБОТА ІЛЛІ*/
+    .footer{
+    	width: 744px;
+    	height: 430px;
+    }
+    .line{
+    	width: 600px;
+    }
+    .mega-wrapper{
+    	width: 726px;
+    	height: 351px;
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .supsubtitle, .supsub{
+    	font-size: 18px;
+    }
+    .text-footer{
+        font-size: 16px;
+    }
+    .wrap-footer{
+    	width: 726px;
+    }
+    .box1{
+	    width: 364px;
+	    height: 104px;
+	    align-items: center;
+	    font-size: 16px;
+    }
+    .box2{
+    	width: 171px;
+        height: 162.49px;
+    }
+    .box3{
+    	width: 185px;
+        height: 225.07px;
+    }
+    .box4{
+    	width: 180px;
+        height: 233.19px;
+    }
+    .box5{
+    	width: 173px;
+        height: 205.77px;
+    }
+    .subr{
+    	display: none;
+    }
+    .logo2{
+        width: 82px;
+        height: 76px;
+    }
+	/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+}
