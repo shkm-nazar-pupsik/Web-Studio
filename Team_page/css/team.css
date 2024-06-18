@@ -1,0 +1,467 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*РОБОТА БОГДАНА/ІЛЛІ*/
+.header{
+	width: 1100px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.section{
+   width: 1160px;
+   height: 488px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
+.list{
+	width: 817.84px;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+input{
+	display: none;
+}
+.logo{
+	width: 49px;
+	height: 45px;
+}
+.item, .link{
+	list-style-type: none;
+	text-decoration: none;
+	color: #ABAEB5;
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+}
+.two{
+	margin-left: 110px;
+}
+.wraper_2{
+	width: 100%;
+	height: 552px;
+	display: flex;
+	justify-content: space-between;
+}
+.block_1{
+    height: 286px;
+    width: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;	
+}
+.wrapper-text{
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.title_1{
+   font-size: 70px;
+   font-family: 'Playfair Display', serif;
+   font-weight: 700;
+   color: #202336;
+}
+.title_2{
+   font-family: 'Inter', sans-serif;
+   font-size: 24px;
+   line-height: 35px;
+   font-weight: 600;
+   color: #202336;
+}
+.button{
+	background: #F6A410;
+	width: 159px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	border: none;
+	box-shadow: 0px 3px 5px 0px grey;
+}
+.text_button{
+	color: white;
+	font-size: 26px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+}
+.lending_image{
+	width: 100%;
+	height: 100%;
+}
+.element1{
+	position: absolute;
+    left: 548px;
+    top: 101.49px;
+}
+.element2{
+	position: absolute;
+	left: 1198px;
+	top: 263.44px;
+}
+.element3{
+	position: absolute;
+	left: 485px;
+	top: 347px;
+}
+/*КІНЕЦЬ РОБОТИ БОГДАНА/ІЛЛІ*/
+
+/*РОБОТА БОГДАНА*/
+.section2{
+	width: 1160px;
+	height: 442px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrap-section2{
+	width: 625.58px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.subtitle-section2{
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+}
+.text-section2{
+	font-size: 18px;
+	line-height: 25px;
+	font-family: 'Inter', sans-serif;
+}
+/*КІНЕЦЬ РОБОТИ БОГДАНА*/
+
+/*РОБОТА ІЛЛІ*/
+.section3{
+    width: 1160px;
+    height: 638px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+	font-size: 36px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+.wrap1{
+	width: 1130px;
+	height: 239.34px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: flex-start;
+}
+.wrap2{
+	width: 1050px;
+	height: 239.34px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: flex-end;
+}
+.box{
+	width: 271.03px;
+	height: 239.34px;
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.23);;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 12px;
+}
+.text{
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+.display-none{
+	display: none;
+}
+.display-none3{
+	display: none;
+}
+.display-none4{
+	display: none;
+	margin-right: 30px;
+}
+.rotate{
+	transform: rotate(180deg);
+}
+.arrow4{
+	display: none;
+}
+.secret{
+	display: none;
+}
+.sup-one{
+	background: #F2FDFF;
+}
+.sup-two{
+	background: #E5FAFE;
+}
+.three{
+	background: #DCF9FF;
+}
+.four{
+	background: #C7F3FC;
+}
+.five{
+	background: #C1ECF5;
+}
+.six{
+	background: #AAE3EF;
+}
+.subtitle-br{
+	font-size: 36px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	text-align: center;
+}
+.section6{
+	width: 1160px;
+	height: 560px;
+	font-family: 'Playfair Display', serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+/*РОБОТА БОГДАНА*/
+.section4{
+	width: 1160px;
+	height: 319px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+}
+.wrap-section4{
+	width: 660.87px;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: flex-end;
+}
+.subtitle-section4{
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+}
+.text-section4{
+	font-size: 18px;
+	line-height: 25px;
+	font-family: 'Inter', sans-serif;
+}
+/*КІНЕЦЬ РОБОТИ БОГДАНА*/
+
+/*РОБОТА НАЗАРА*/
+.job-container{
+	width: 1280px;
+	margin-top: 50px;
+}
+.team-title{
+	font-family: Playfair Display;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 53px;
+}
+.team-block1{
+	width: 604px;
+	border-radius: 10px;
+	background: #FFFACF;
+	position: relative;
+	padding: 25px 15px;
+	margin-bottom: 10px;
+}
+.team-block-container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 1668px;
+	width: 1160px;
+	margin-left: 70px;
+}
+.team-block2{
+	background: #FFFDCF;
+	padding: 25px 15px;
+	border-radius: 10px;
+	margin-bottom: 19px;
+	width: 535px;
+}
+.team-block2-2{
+	background: #F5FFD9;
+	border-radius: 10px;
+	padding: 25px 15px;
+	margin-bottom: 10px;
+	margin-bottom: 29px;
+	width: 535px;
+}
+li{
+	list-style-type: none;
+}
+input{
+	display: none;
+}
+.team-block-container2-2{
+	width: 604px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.team-block3{
+	background: #EEFFD9;
+	border-radius: 10px;
+	padding: 25px 15px;
+	margin-bottom: 10px;
+	width: 604.59px;
+}
+.team-block3-2{
+	width: 604.59px;
+	border-radius: 10px;
+	background: #E0FFD9;
+	padding: 25px 15px;
+	margin-bottom: 10px;
+}
+.picture-container{
+	width: 604px;
+	display: flex;
+	align-items: center;
+}
+.team-work-img{
+	width: 534.91px;
+	height: 330px;
+}
+.team-work-img2{
+	display: none;
+}
+.team-block1-2{
+	width: 604.59px;
+    
+	border-radius: 10px;
+	background: #CDF4D9;
+	padding: 25px 15px;
+	margin-bottom: 10px;
+}
+.team-block4{
+	width: 534.91px;
+	border-radius: 10px;
+	background: #B3DEC1;
+	padding: 25px 15px;
+	margin-bottom: 19px;
+	margin-top: 147px;
+}
+.team-block4-2{
+	width: 534.91px;
+	border-radius: 10px;
+	background: #98CBA8;
+	padding: 25px 15px;
+	margin-top: 13px;
+}
+.team-label{
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 700;
+}
+.team-text{
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 20px;
+	line-height: 25px;
+}
+/*КІНЕЦЬ РОБОТИ НАЗАРА*/
+
+/*РОБОТА ІЛЛІ*/
+.footer{
+	width: 1280px;
+	height: 430px;
+	background: #ebf7f4;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 100px;
+}
+.mega-wrapper{
+	width: 1100px;
+	height: 235px;
+	display: flex;
+	justify-content: space-between;
+}
+.wrap-footer{
+	width: 892px;
+	height: 235px;
+	display: flex;
+	justify-content: space-between;
+}
+.sub{
+	font-size: 17px;
+    font-family: 'Playfair Display', serif;
+}
+.one{
+	width: 208px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box1{
+	width: 208px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.box2{
+    height: 155px;
+}
+.box3{
+    height: 235px;
+}
+.box4{
+    height: 230.62px;
+}
+.box5{
+    height: 190px;
+}
+.line{
+	width: 977.43px;
+	height: 1px;
+	background: #C4C4C4;
+}
+.img-wrap{
+	width: 198.86px;
+	height: 19.63px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.subtitle-g{
+    font-size: 19px;
+    font-family: 'Playfair Display', serif;
+}
+.text-footer{
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    color: #717171;
+}
+/*КІНЕЦЬ РОБОТИ ІЛЛІ*/

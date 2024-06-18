@@ -1,0 +1,447 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@media screen and (max-width: 743px){
+  /*РОБОТА БОГДАНА/ІЛЛІ*/
+  .container{
+    width: 360px;
+  }
+  .header{
+  	position: relative;
+  }
+  .two{
+    margin: 0;
+  }
+	.header_wrapper-span {
+  left: auto;
+  width: 30px;
+  height: 5px;
+  background-color: grey;
+  border-radius: 20%;
+  position: absolute;
+  top: 26px;
+}
+
+.header_wrapper-span::after {
+  content: '';
+  width: 30px;
+  height: 5px;
+  background-color: grey;
+  border-radius: 20%;
+  position: absolute;
+  top: 11px;
+}
+
+.header_wrapper-span::before {
+  content: '';
+  width: 30px;
+  height: 5px;
+  background-color: grey;
+  border-radius: 20%;
+  position: absolute;
+  top: 22px;
+}
+.list{
+	flex-direction: column;
+}
+.item{
+	margin: 10px;
+}
+
+.checkbox:checked~.list>.item {
+  width: 230px;
+  display: block;
+}
+
+.checkbox:checked~.header_wrapper-label>.header_wrapper-span {
+  background-color: transparent;
+}
+
+.checkbox:checked~.header_wrapper-label>.header_wrapper-span::after {
+  transform: rotate(-45deg);
+  top: 11px;
+  border-radius: 0%;
+}
+
+.checkbox:checked~.header_wrapper-label>.header_wrapper-span::before {
+  transform: rotate(45deg);
+  top: 11px;
+  border-radius: 0%;
+}
+
+.item {
+  display: none;
+}
+
+.item {
+  color: black;
+  text-align: center;
+}
+
+.checkbox {
+  display: none;
+}
+
+.item {
+  font-size: 18px;
+  height: 50px;
+  width: 100px;
+  color: #ABAEB5;
+  text-align: center;
+}
+
+.item:hover {
+  color: black;
+  border-bottom: 1px solid #F6A410;
+}
+
+.header{
+  padding-top: 20px;
+  margin-bottom: 10px;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+.header_wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 150px;
+  padding-top: 50px;
+  padding-right: 65px;
+}
+
+.img,.imgg {
+  width: 50%;
+}
+
+.img {
+  width: 789.754px;
+  height: 451px;
+}
+
+.logo {
+  width: 49.906px;
+  height: 45.238px;
+  flex-shrink: 0;
+}
+
+.title_1{
+	font-size: 30px;
+}
+.title_2{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.lending_image{
+   width: 360px;
+   height: 214px;
+}
+
+.block_1{
+	height: 135px;
+}
+.wrapper-text{
+    height: 90px;
+}
+.button{
+	width: 100px;
+	height: 40px;
+}
+.text_button{
+   font-size: 20px;
+}
+.section{
+   width: 360px;
+   height: 351px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column-reverse;
+   align-items: flex-start;
+}
+.element1, .element2, .element3{
+	display: none;
+}
+/*КІНЕЦЬ РОБОТИ БОГДАНА/ІЛЛІ*/
+
+/*РОБОТА БОГДАНА*/
+.section2{
+    width: 340px;
+    height: 880px;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+}
+.wrap-section2{
+  height: 530px;
+  align-items: center;
+}
+.subtitle-section2{
+  font-size: 30px;
+}
+.text-section2{
+  font-size: 16px;
+  line-height: 25px;
+  align-items: left;
+  width: 340px;
+}
+.image-section2{
+  width: 340px;
+  height: 325px;
+}
+.br-section2{
+  display: none;
+}
+/*КІНЕЦЬ РОБОТИ БОГДАНА*/
+
+/*РОБОТА ІЛЛІ*/
+.section3{
+    width: 300px;
+    height: 2110px;
+  }
+  .title{
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .wrap1{
+    height: 980px;
+    width: 300px;
+    flex-direction: column;
+  }
+  .wrap2{
+    height: 950px;
+    width: 300px;
+    flex-direction: column-reverse;
+  }
+  .display-none{
+    display: block;
+  }
+  .display-none2{
+    display: none;
+  }
+  .secret{
+    display: block;
+  }
+  .arrow1, .display-none{
+    transform: rotate(90deg);
+  }
+  .arrow2{
+    transform: rotate(270deg);
+  }
+  .section6{
+    width: 330px;
+    height: 334px;
+  }
+  .subtitle-br{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .image-br{
+    width: 330px;
+    height: 194px;
+  }
+  .br2-sub{
+    display: none;
+  }
+  .line{
+    width: 270.97px;
+  }
+  /*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+  /*РОБОТА БОГДАНА*/
+.section4{
+    width: 340px;
+    height: 710px;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+}
+.wrap-section4{
+  width: 340px;
+  height: 480px;
+  align-items: center;
+}
+.subtitle-section4{
+  font-size: 30px;
+  text-align: center;
+}
+.text-section4{
+  font-size: 16px;
+  line-height: 25px;
+  align-items: left;
+  width: 340px;
+}
+.image-section4{
+  width: 330px;
+  height: 223px;
+}
+.br-section4{
+  display: none;
+}
+/*КІНЕЦЬ РОБОТИ БОГДАНА*/
+
+  /*РОБОТА ІЛЛІ*/
+  .footer{
+    width: 360px;
+    height: 620px;
+    
+  }
+  .text-footer{
+    font-size: 14.5px;
+  }
+  .wrap-footer{
+    width: 340px;
+    height: 393.33px;
+    flex-wrap: wrap;
+  }
+  .logo{
+    width: 82.26px;
+    height: 79px;
+  }
+  .mega-wrapper{
+    width: 340px;
+    height: 520px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .br2{
+    display: none;
+  }
+  .box1{
+    width: 335px;
+    height: 120px;
+    align-items: center;
+  }
+  .box2{
+    width: 137.73px;
+    height: 171px;
+  }
+  .box3{
+    width: 152.98px;
+    height: 217.84px;
+  }
+  .box4{
+    width: 153.04px;
+    height: 234.33px;
+    bottom: 60px;
+    position: relative;
+  }
+  .box5{
+    width: 165.98px;
+    height: 129px;
+  }
+  .one{
+    line-height: 25px;
+    justify-content: flex-start;
+  }
+  /*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+  /*РОБОТА НАЗАРА*/
+  .team-title{
+    font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+
+  }
+  .job-container{
+    flex-direction: column;
+    width: 330px;
+    display: flex;
+  }
+  .team-text{
+    position: absolute;
+    max-width: 1px;
+      max-height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+    white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+  }
+  .team-label::after{
+    content: '+';
+  }
+  .team-label{
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-checkbox:checked ~ .team-text{
+    max-height: 100vh;
+      max-width: 100vw;
+      position: relative;
+      white-space: normal;
+      clip-path: none;
+      margin-top: 15px;
+  }
+  .team-checkbox:checked ~ .team-label:after{
+    transform: rotate(45deg);
+  }
+  .team-block1{
+    width: 300px;
+    order: -1;
+    padding: 12px 20px;
+  }
+  .team-block1-2{
+    width: 300px;
+    padding: 12px 20px;
+  }
+  .team-block2{
+    width: 300px;
+    order: -1;
+    padding: 12px 20px;
+  }
+  .team-block2-2{
+    width: 300px;
+    order: -1;
+    padding: 12px 20px;
+    margin-bottom: 13px;
+  }
+  .team-block3{
+    width: 300px;
+    
+    padding: 12px 20px;
+  }
+  .team-block3-2{
+    width: 300px;
+    
+    padding: 12px 20px;
+  }
+  .team-block4{
+    width: 300px;
+    margin-top: 0px;
+    padding: 12px 20px;
+  
+  }
+  .team-block4-2{
+    width: 300px;
+    padding: 12px 20px;
+    margin-top: -10px;
+  }
+  .team-work-img{
+    width: 330px;
+    height: 206px;
+    display: block;
+    order: 2;
+  }
+  .team-block-container{
+    width: 330px;
+    height: 759px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0;
+  }
+  .team-picture-container{
+    order: 2;
+  }
+  /*КІНЕЦЬ РОБОТИ НАЗАРА*/
+}

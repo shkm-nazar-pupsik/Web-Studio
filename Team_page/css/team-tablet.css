@@ -1,0 +1,366 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+@media screen and (min-width: 744px) and (max-width: 1279px){
+	/*РОБОТА БОНДАНА/ІЛЛІ*/
+	.container{
+		max-width: 744px;
+	}
+	.header{
+		width: 726px;
+		height: 54px;
+	}
+	.link{
+		font-size: 16px;
+	}
+	.logo{
+	    width: 49px;
+	    height: 45px;
+    }
+    .list{
+	    width: 527px;
+	    height: 34px;
+    }
+    .section{
+    	width: 726px;
+    	height: 337px;
+    }
+    .element1, .element2, .element3{
+        display: none;
+    }
+    .block_1{
+    	width: 355.33px;
+    	height: 205px;
+    }
+    .wrapper-text{
+    	width: 355.33px;
+    	height: 140px;
+    }
+    .title_1{
+    	font-size: 40px;
+    }
+    .title_2{
+    	font-size: 20px;
+    }
+    .button{
+	     width: 159px;
+	     height: 45px;
+     }
+    .text_button{
+	    font-size: 22px;
+    }
+    .lending-image{
+    	width: 400px;
+    	height: 237px;
+    }
+    .two{
+    	margin: 0px;
+    }
+	/*KІНЕЦЬ РОБОТИ БОГДАНА/ІЛЛІ*/
+
+    /*РОБОТА БОГДАНА*/
+.section2{
+    width: 726px;
+    height: 717px;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+}
+.container{
+  max-width: 744
+}
+.wrap-section2{
+  width: 538px;
+  height: 280px;
+  margin-right: 190px;
+}
+.subtitle-section2{
+  font-size: 30px;
+}
+.text-section2{
+  font-size: 16px;
+  line-height: 25px;
+  align-items: left;
+  width: 726px;
+}
+.image-section2{
+  width: 538px;
+  height: 441px;
+}
+.br-section2{
+  display: none;
+}
+    /*КІНЕЦЬ РОБОТИ БОГДАНА*/
+
+    /*РОБОТА ІЛЛІ*/
+    .section3{
+        width: 723.36px;
+        height: 943.09px;
+        justify-content: flex-start;
+    }
+    .wrap1{
+        height: 520px;
+        width: 723.36px;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin-top: 25px;
+    }
+    .wrap-box3{
+        display: flex;
+        justify-content: flex-end;
+        width: 800px;
+        align-items: center;
+        align-self: flex-end;
+    }
+    .arrow-none{
+        display: none;
+    }
+    .display-none2{
+        display: none;
+    }
+    .display-none3{
+        display: block;
+    }
+    .display-none4{
+        display: block;
+    }
+    .wrap2{
+        height: 520px;
+        width: 723.36px;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-self: flex-start;
+        position: absolute;
+        margin-top: 355px;
+    }
+    .arrow4{
+        display: block;
+    }
+    .wrap-box4{
+        order: -1;
+        display: flex;
+        width: 800px;
+        align-items: center;
+    }
+    .four{
+        margin-left: 35px;
+    }
+    .six{
+        order: 2;
+        margin-right: 60px;
+    }
+    .order{
+        display: none;
+    }
+    /*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+    /*РОБОТА БОГДАНА*/
+    .section4{
+    width: 726px;
+    height: 667px;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+}
+.wrap-section4{
+  width: 726px;
+  height: 240px;
+  align-items: center;
+}
+.subtitle-section4{
+  font-size: 30px;
+}
+.text-section4{
+  font-size: 16px;
+  line-height: 25px;
+  align-items: left;
+  width: 726px;
+}
+.image-section4{
+  width: 726px;
+  height: 441px;
+}
+.br-section4{
+  display: none;
+}
+    /*КІНЕЦЬ РОБОТИ БОГДАНА*/
+
+      /*РОБОТА НАЗАРА*/
+  .team-title{
+    font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+
+  }
+  .job-container{
+    flex-direction: column;
+    width: 744px;
+    height: 720px;
+    display: flex;
+  }
+  .team-text{
+    position: absolute;
+    max-width: 1px;
+      max-height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+    white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+  }
+  .team-label::after{
+    content: '+';
+  }
+  .team-label{
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-checkbox:checked ~ .team-text{
+    max-height: 100vh;
+      max-width: 100vw;
+      position: relative;
+      white-space: normal;
+      clip-path: none;
+      margin-top: 15px;
+  }
+  .team-checkbox:checked ~ .team-label:after{
+    transform: rotate(45deg);
+  }
+  .team-block1{
+    width: 300px;
+    order: -1;
+    padding: 12px 20px;
+  }
+  .team-block1-2{
+    width: 300px;
+    padding: 12px 20px;
+  }
+  .team-block2{
+    width: 300px;
+    order: ;
+    padding: 12px 20px;
+    margin-bottom: 13px;
+  }
+  .team-block2-2{
+    width: 300px;
+    order: -1;
+    padding: 12px 20px;
+    margin-bottom: 13px;
+  }
+  .team-block3{
+    width: 300px;
+    order: 1;
+    padding: 12px 20px;
+  }
+  .team-block3-2{
+    width: 300px;
+    
+    padding: 12px 20px;
+  }
+  .team-block4{
+    width: 300px;
+    margin-top: 0px;
+    padding: 12px 20px;
+    order: ;
+  }
+  .team-block4-2{
+    width: 300px;
+    padding: 12px 20px;
+    margin-top: -10px;
+  }
+  .team-work-img{
+    width: 428px;
+    height: 263px;
+    display: block;
+    position: absolute;
+    right: 350px;
+    margin-top: 20px;
+  }
+  .team-block-container{
+    width: 774px;
+    height: 309px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+  }
+  .team-picture-container{
+    order: 2;
+    margin: 0 auto;
+  }
+  /*КІНЕЦЬ РОБОТИ НАЗАРА*/
+
+    /*РОБОТА ІЛЛІ*/
+    .section6{
+        width: 724px;
+        height: 430px;
+    }
+    .subtitle-br{
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
+        width: 606px;
+    }
+    .image-br{
+        width: 724px;
+        height: 320px;
+    }
+    /*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+
+	/*РОБОТА ІЛЛІ*/
+    .footer{
+    	width: 744px;
+    	height: 430px;
+    }
+    .line{
+    	width: 600px;
+    }
+    .mega-wrapper{
+    	width: 726px;
+    	height: 351px;
+    	flex-direction: column;
+    	align-items: center;
+    }
+    .subtitle, .sub{
+    	font-size: 18px;
+    }
+    .text-footer{
+        font-size: 16px;
+    }
+    .wrap-footer{
+    	width: 726px;
+    }
+    .box1{
+	    width: 364px;
+	    height: 104px;
+	    align-items: center;
+	    font-size: 16px;
+    }
+    .box2{
+    	width: 171px;
+        height: 162.49px;
+    }
+    .box3{
+    	width: 185px;
+        height: 225.07px;
+    }
+    .box4{
+    	width: 180px;
+        height: 233.19px;
+    }
+    .box5{
+    	width: 173px;
+        height: 205.77px;
+    }
+    .br2-sub{
+    	display: none;
+    }
+    .logo2{
+        width: 82px;
+        height: 76px;
+    }
+	/*КІНЕЦЬ РОБОТИ ІЛЛІ*/
+}
